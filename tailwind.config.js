@@ -2,11 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    container:{
+      center: true,
+      padding: '2rem'
+    },
     extend: {
       colors: {
-        primary: "#618CB3",
-        ink1: "#280617",
-        ink2: "#BADBAA",
+        bg: '#EBF4F6',
+        primary: '#37B7C3',
+        secondary: '#088395',
+        tersier : '#071952',
       },
       fontFamily: {
         Exo: ["Exo 2"],

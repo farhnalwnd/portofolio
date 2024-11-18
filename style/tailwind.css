@@ -2,11 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    .sub-font{
-        @apply text-sm font-light text-slate-600
+@layer components{
+    .primary-text{
+        @apply text-lg font-medium text-secondary
     }
-    .title-font{
-        @apply text-sm font-medium
+    .primary-text-m{
+        @apply text-xl font-medium text-secondary
+    }
+    .primary-text-l{
+        @apply text-2xl font-medium text-secondary
+    }
+    .secondary-text{
+        @apply text-sm font-light text-tersier
+    }
+    .secondary-text-m{
+        @apply text-base font-light text-tersier
+    }
+    .secondary-text-l{
+        @apply text-lg font-light text-tersier
     }
 }
