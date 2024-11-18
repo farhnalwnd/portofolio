@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .sub-font{
+        @apply text-sm font-light text-slate-600
+    }
+    .title-font{
+        @apply text-sm font-medium
+    }
+}
