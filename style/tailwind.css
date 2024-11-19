@@ -21,4 +21,6 @@
     .secondary-text-l{
         @apply text-lg font-light text-tersier
     }
+
+    
 }
