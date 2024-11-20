@@ -632,6 +632,11 @@ video {
   z-index: -50;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -640,6 +645,11 @@ video {
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mb-2 {
@@ -678,25 +688,8 @@ video {
   height: auto;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.max-h-52 {
-  max-height: 13rem;
-}
-
-.max-h-96 {
-  max-height: 24rem;
-}
-
-.max-h-56 {
-  max-height: 14rem;
+.max-h-48 {
+  max-height: 12rem;
 }
 
 .w-6 {
@@ -715,23 +708,6 @@ video {
   width: 100%;
 }
 
-.w-\[33\.75\] {
-  width: 33.75;
-}
-
-.w-\[33\.75rem\] {
-  width: 33.75rem;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .min-w-full {
   min-width: 100%;
 }
@@ -742,10 +718,6 @@ video {
 
 .max-w-screen-xl {
   max-width: 1280px;
-}
-
-.max-w-\[33\.75rem\] {
-  max-width: 33.75rem;
 }
 
 .max-w-sm {
@@ -768,12 +740,20 @@ video {
   justify-content: center;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .rounded-b-lg {
@@ -799,9 +779,18 @@ video {
   border-color: rgb(8 131 149 / var(--tw-border-opacity, 1));
 }
 
+.bg-\[\#FBF4DB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 244 219 / var(--tw-bg-opacity, 1));
+}
+
 .bg-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(235 244 246 / var(--tw-bg-opacity, 1));
+}
+
+.bg-opacity-75 {
+  --tw-bg-opacity: 0.75;
 }
 
 .bg-gradient-to-r {
@@ -831,28 +820,24 @@ video {
   padding: 0.125rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
 
-.p-32 {
-  padding: 8rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
 .pr-4 {
   padding-right: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-lg {
